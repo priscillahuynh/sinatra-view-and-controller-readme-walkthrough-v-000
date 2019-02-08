@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-    
+    @friends = []
 
   end
 end
